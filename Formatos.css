@@ -12,16 +12,16 @@ h1 {
 }
 
 .menu_principal {
-    font-size: 1em;
+	font-size: 1em;
 	text-align: center;
-    background-color: #d7e4da;
-    background-position: center;
-    width: auto;
+	background-color: #d7e4da;
+	background-position: center;
+	width: auto;
 	height: auto;
-	border-bottom: 2px solid black;
+	border-bottom: 3px solid black;
 }
 
-a{
+a {
 	margin: 20px 20px;
 }
 
@@ -46,14 +46,14 @@ a{
 
 
 a.active {
-    color: white;
-    background-color: #1f557d;
-    border-radius: 20%;
-    font-weight: bold;
+	color: white;
+	background-color: #1f557d;
+	border-radius: 20%;
+	font-weight: bold;
 }
 
-header p{
-margin-bottom: 0%;
+header p {
+	margin-bottom: 0%;
 }
 
 html,
@@ -73,24 +73,31 @@ body {
 	/* background-color: rgba(0, 0,0,0.5); */
 	background-color: #840e12;
 }
-.col-3{
+
+.col-3 {
 	padding: 30px;
 }
+
 .tipografiaA {
-	color: white ;
+	color: white;
 	font-size: 0.9em;
 	font-style: italic;
 	text-align: center;
 }
 
-.card-container{
+.card-container {
 	display: flex;
 	text-align: center;
 	justify-content: center;
 	gap: 30px;
 }
 
-.texto{
+
+.abajo {
+	margin-top: 78px;
+}
+
+.texto {
 	margin-top: 90px;
 	text-align: justify;
 	padding: 30px;
@@ -103,24 +110,42 @@ body {
 	font-weight: bold;
 }
 
-.titulo{
-background-image: linear-gradient(to bottom, #1f557d, #d7e4da);
-height: 150px;
+.titulo {
+	background-image: linear-gradient(to bottom, #1f557d, #d7e4da);
+	height: 150px;
 }
 
-.clasesOnline{
-background-color: #d7e4da;
-border: 2px solid black;
+.negrita {
+	font-weight: bold;
+}
+
+.clasesOnline {
+	background-image: linear-gradient(to bottom, #d7e4da, #6c9ea3);
+	border-top: 3px solid black;
+}
+
+
+.videoExplicativo {
+	background-image: linear-gradient(to bottom, #6c9ea3, #2f6e8b);
+}
+
+
+.apuntes {
+	background-image: linear-gradient(to bottom, #2f6e8b, #1f557d);
+	border-bottom: 3px solid black;
 }
 
 .float-button-container {
 	position: fixed;
-	bottom: 20px; /* Ajusta la posición vertical del botón */
-	right: 20px; /* Ajusta la posición horizontal del botón */
-	z-index: 1; /* Asegura que el botón esté por encima de otros elementos */
-  }
-  
-  .float-button {
+	bottom: 20px;
+	/* Ajusta la posición vertical del botón */
+	right: 20px;
+	/* Ajusta la posición horizontal del botón */
+	z-index: 1;
+	/* Asegura que el botón esté por encima de otros elementos */
+}
+
+.float-button {
 	display: block;
 	width: 170px;
 	height: 40px;
@@ -131,4 +156,37 @@ border: 2px solid black;
 	border-radius: 20px;
 	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
 	text-decoration: none;
-  }
+}
+
+.contacto {
+	background-color: #f7cd91;
+}
+
+.tamano {
+	margin-left: 400px;
+	margin-top: 50px;
+	width: 8%;
+}
+
+.tamano2 {
+	margin-right: 400px;
+	margin-left: 75px;
+	margin-top: 50px;
+	width: 10%;
+}
+
+.tamano3 {
+	margin-left: 300px;
+	text-decoration: none;
+	color: #00bd05;
+	font-weight: bold;
+	margin-bottom: 70px;
+}
+
+.tamano4 {
+	margin-right: 300px;
+	text-decoration: none;
+	color: rgb(213, 49, 105);
+	font-weight: bold;
+	margin-bottom: 70px;
+}
